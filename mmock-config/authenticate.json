@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "path": "/users/authenticate",
+        "headers": {
+            "Authorization": ["Basic dXN1YXJpb0BwcnVlYmEuY29tOjEyMzQ1Njc4"]
+        }
+    },
+    "response": {
+        "statusCode": 200,
+        "body": "Usuario autenticado correctamente."
+    },
+    "control": {
+        "priority": 1
+    }
+}
