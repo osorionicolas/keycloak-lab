@@ -4,8 +4,8 @@ services:
     image: quay.io/keycloak/keycloak:19.0.3-legacy
     container_name: keycloak
     volumes:
-      - ./keycloak-rest-repo/target/keycloak-rest-repo.jar:/opt/jboss/keycloak/standalone/deployments/keycloak-rest-repo.jar
-      - ./keycloak-custom-authenticator/target/keycloak-custom-authenticator.jar:/opt/jboss/keycloak/standalone/deployments/keycloak-custom-authenticator.jar
+      # - ./keycloak-rest-repo/target/keycloak-lab-repo-1.0.jar:/opt/jboss/keycloak/standalone/deployments/keycloak-lab-repo-1.0.jar
+      - ./keycloak-custom-authenticator/target/password-form-authenticator-1.0.jar:/opt/jboss/keycloak/standalone/deployments/password-form-authenticator-1.0.jar
     restart: always
     environment:
       KEYCLOAK_USER: admin
