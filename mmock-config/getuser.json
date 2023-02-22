@@ -1,0 +1,19 @@
+{
+    "request": {
+        "method": "GET",
+        "path": "/users",
+        "queryStringParameters": {
+            "email": ["usuario@prueba.com"]
+        }
+    },
+    "response": {
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": ["application/json"]
+        },
+        "body": "{\"email\":\"usuario@prueba.com\",\"password\":\"12345678\",\"firstName\":\"Usuario\",\"lastName\":\"Laboratorio\"}"
+    },
+    "control": {
+        "priority": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "request": {
+        "method": "POST",
+        "path": "/registration",
+        "headers": {
+            "Content-Type": ["application/json"]
+        },
+        "body": "{\"email\":\"usuario@nuevo.com\",\"password\":\"12345678\",\"firstname\":\"Usuario\",\"lastname\":\"Nuevo\"}"
+    },
+    "response": {
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": ["application/json"]
+        },
+        "body": "{\"resultCode\": \"0\", \"resultMessage\": \"Usuario Nuevo ha sido creado exitosamente\" }"
+    },
+    "control": {
+        "priority": 0
+    }
+}
