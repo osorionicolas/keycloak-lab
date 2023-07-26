@@ -1,0 +1,17 @@
+{
+	"request": {
+		"method": "POST",
+		"path": "/users"
+	},
+	"response": {
+		"statusCode": 200,
+		"headers": {
+			"Content-Type":["application/json"]
+		},
+		"body": 
+			"{\"email\": \"frajuba11\", \"pass\": \"12345\", \"name\": \"Franco\", \"lastname\": \"Barrera\"}"
+	},
+	"control": {
+		"priority" : 1
+    }
+}

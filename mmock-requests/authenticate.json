@@ -1,0 +1,16 @@
+{
+	"request": {
+		"method": "POST",
+		"path": "/auth",
+        "headers": {
+            "Authorization" : ["Basic ZmJhcnJlcmFAaWRlbnRpY3VtLmNvbToxMjM0NQ=="]
+        }
+	},
+	"response": {
+		"statusCode": 200,
+		"body": "Authenticated"
+	},
+    "control": {
+        "priority" : 1
+    }
+}
